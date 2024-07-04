@@ -32,10 +32,10 @@
 #define ST6201_MADCTL_BGR 0x08
 #ifdef TFT_RGB_ORDER
   #if (TFT_RGB_ORDER == 1)
-    #define TFT_MAD_COLOR_ORDER TFT_MAD_RGB
+    #define TFT_MAD_RGB 1
   #else
-    #define TFT_MAD_COLOR_ORDER TFT_MAD_BGR
+    #define TFT_MAD_RGB 0
   #endif
 #else
-  #define TFT_MAD_COLOR_ORDER TFT_MAD_BGR
+  #define TFT_MAD_RGB 1
 #endif
