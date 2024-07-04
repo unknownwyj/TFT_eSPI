@@ -872,6 +872,8 @@ void TFT_eSPI::setRotation(uint8_t m)
 #elif defined (HX8357C_DRIVER)
     #include "TFT_Drivers/HX8357C_Rotation.h"
 
+#elif defined (ST6201_DRIVER)
+    #include "TFT_Drivers/ST6201_Rotation.h"
 #endif
 
   delayMicroseconds(10);
