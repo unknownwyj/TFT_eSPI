@@ -58,6 +58,8 @@
     #define ILI9486_DRIVER
 #elif defined (CONFIG_TFT_ILI9488_DRIVER)
     #define ILI9488_DRIVER
+#elif defined (CONFIG_TFT_ST6201_DRIVER)
+    #define ST6201_DRIVER
 #elif defined (CONFIG_TFT_ST7789_DRIVER)
     #define ST7789_DRIVER
 #elif defined (CONFIG_TFT_ST7789_2_DRIVER)

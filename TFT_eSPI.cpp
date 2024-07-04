@@ -769,6 +769,8 @@ void TFT_eSPI::init(uint8_t tc)
 #elif defined (HX8357C_DRIVER)
     #include "TFT_Drivers/HX8357C_Init.h"
 
+#elif defined (ST6201_DRIVER)
+    #include "TFT_Drivers/ST6201_Init.h"
 #endif
 
 #ifdef TFT_INVERSION_ON
